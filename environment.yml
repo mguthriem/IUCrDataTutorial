@@ -1,4 +1,4 @@
-name: scippNeutron
+name: IUCrDataTutorial
 channels:
   - scipp
   - mantid
