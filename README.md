@@ -50,7 +50,20 @@ You should now be able to run the tutorial
 
 ### Data
 
-In order to run this demo, you need to access some neutron data. These datasets can be quite large so are not included in this repo and are instead located on a dropbox folder **TODO: set up**
+In order to run this demo, you need to access some neutron data. These datasets can be quite large so are not included in this repo and are instead located on a dropbox folder here:
+
+https://www.dropbox.com/scl/fo/kduv87wx4j2cc71u9lu97/AKy4Yn7Q_EAvXyd1jV0jd1w?rlkey=jcy7759n02vqc8ikwyglr5k30&st=rvf18jlv&dl=0
+
+Inside that folder, you will find 4 files: 
+
+| File Name | Description | File size (Gb) |
+|----|----|----|
+|diffract_consts.h5 | Contains calibration for each detector pixel | 0.00 |
+|NIST_Silicon.nxs | Neutron powder from a NIST standard Silicon | 0.13 | 
+|vanadium-niobium.nxs | Powder data from solid vanadium-niobium alloy | 0.36 |
+|empty.nxs | Measurement of empty instrument | 0.06 |
+
+You should download local copies of these files and remember where these are stored. 
 
 ### Jupyter notebooks
 
