@@ -82,5 +82,11 @@ The content of the demo are contained in jupyter notebooks. If you are unfamilia
 ```
 jupyter notebook
 ```
+or, alternatively
+```
+jupyter lab
+```
+Either application will open in your default browser, and you can select the notebook you want to open from there.
+
 The content of the notebook consists of a series of "cells" blocks of content that contain either text or code. To activate code all that's needed is to select a cell and enter `shift-enter`. More detailed instructions are contained in the text of the notebook itself.
 
