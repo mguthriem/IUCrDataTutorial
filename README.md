@@ -1,6 +1,6 @@
 # Neutron powder diffraction data reduction demo
 
-The goal of this is to illustrate some important concepts for working with neutron powder diffraction data. Data reduction is an important data processing step where the majority of instrumental contributions to the measured data are removed as a prelude to data analysis, typically using the Rietveld method.
+The goal of this demo is to illustrate some important concepts for working with neutron powder diffraction data. Data reduction is an important data processing step where the majority of instrumental contributions to the measured data are removed as a prelude to data analysis, typically using the Rietveld method.
 
 The data reduction workflow will be illustrated with two different approaches:
 

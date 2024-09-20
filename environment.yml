@@ -286,6 +286,7 @@ dependencies:
   - zstd=1.5.6=h915ae27_0
   - pooch
   - pythreejs
+  - python-graphviz
   - pip:
       - mantidqtinterfaces==6.10.0
 prefix: /Users/66j/miniconda3/envs/IUCrDataTutorial
