@@ -13,6 +13,16 @@ Both software packages are open source, freely available and support Windows, Ma
 
 To follow the demo and explore yourself, there are some prerequisites:
 
+### Python
+
+For this tutorial, knowledge of the Python scripting language is not essential (for example, the planned in-person demo of mantid will use convenient GUI-based tools), however, having even a basic knowledge of python will be helpful and will greatly enrich the possiblities to interact with the data. If you have never used python before, we recommend that you spend some time looking at these free introductory links (taken from [wiki.python.org](https://wiki.python.org/moin/BeginnersGuide)):
+
+* [Beginners Python tutorial at Python Land](https://python.land/python-tutorial) 
+* [Dataquest for Python for data science](https://www.dataquest.io/)
+* [HackInScience free and open source platform](https://www.hackinscience.org/)
+
+There are also [many youTube videos](https://www.youtube.com/results?search_query=beginners+python+science)
+
 ### Download this repo
 
 This repository contains the content of the demos, in the form of [jupyter notebooks](https://jupyter.org/). The repo also contains the necessary conda environment definition to run the demo on your local machine. 
