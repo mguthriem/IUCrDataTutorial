@@ -9,6 +9,10 @@ The data reduction workflow will be illustrated with two different approaches:
 
 Both software packages are open source, freely available and support Windows, MacOS and Linux. 
 
+## Warning
+
+Neutron powder data can be quite memory intensive e.g. at the end of execution, the SCIPP Data tutorial occupies ~ 4Gb of RAM. It's good to be aware of this and make sure to not run multiple instances of the tutorial notebooks simultaneously (unless you have a large amount of RAM at your disposal!). Also, be aware that simply closing the browser window for a jupyter notebook _does not terminate its process_. To close the process, you can hit ctrl-Z in the terminal window and answer "Yes" to the prompt asking if you're sure you want to close the process.          
+
 ## Prerequisites
 
 To follow the demo and explore yourself, there are some prerequisites:
