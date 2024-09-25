@@ -41,6 +41,12 @@ The preferred method to install and manage mantid is to use conda.
 
 Create a new environment using the `environment.yml` in the repository. This will create an environment called `IUCrDataTutorial`. Activate this environment and you are ready to go.
 
+IMPORTANT NOTE FOR WINDOWS USERS: creating the conda environment `environment.yml` does not appear to work for windows systems. If you are a windows user, please create the environment using the following command: 
+
+```
+conda create -n IUCrDataTutorial -c conda-forge -c scipp -c mantid mantid scippneutron jupyterlab pandas ipympl pythreejs python-graphviz
+```
+
 #### Scenario 2: you don't know what a conda environment is
 
 Conda is a "package, dependency and environment manager". What do these words mean? 
@@ -55,7 +61,12 @@ Once conda is installed, you must create a conda environment. This is done from 
 ```
 conda env create -f environment.yml
 ```
-This will tell you all of the packages that will be downloaded and prompt you if it's OK to continue. If you agree, an environment called `IUCrDataTutorial` will be created and the necessary software installed within it. Once the environment is successfully created, you must activated it using:
+If you're a windows user, please instead create the environment using:
+```
+conda create -n IUCrDataTutorial -c conda-forge -c scipp -c mantid mantid scippneutron jupyterlab pandas ipympl pythreejs python-graphviz
+```
+
+These commands tell you all of the packages that will be downloaded and prompt you if it's OK to continue. If you agree, an environment called `IUCrDataTutorial` will be created and the necessary software installed within it. Once the environment is successfully created, you must activated it using:
 
 ```
 conda activate IUCrDataTutorial
